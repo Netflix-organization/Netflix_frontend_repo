@@ -38,7 +38,7 @@ jobs:
 
     - name: Docker build 
       run: |
-        docker build -t netflix_frontend:latest .
+        docker build -t netflix_frontend_repo:latest .
 
     - name: Docker push
       run: |
